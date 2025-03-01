@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b><blockquote>○ ᴏᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>Jҽϝϝɾҽყ ʂαɱα</a>\n○ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/Anime_Weekends'>ᴀɴɪᴍᴇ ᴡᴇᴇᴋᴇɴᴅs</a>\n○ ᴍᴏᴠɪᴇs ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/Movie_Weekends'>ᴍᴏᴠɪᴇ ᴡᴇᴇᴋᴇɴᴅs</a>\n○ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/Weekends_Network'>ᴡᴇᴇᴋᴇɴᴅs ɴᴇᴛᴡᴏʀᴋ</a>\n○ ᴀɴɪᴍᴇ ᴄʜᴀᴛ : <a href='https://t.me/Weebs_Weekends'>ᴡᴇᴇʙs ᴡᴇᴇᴋᴇɴᴅs</a></blockquote></b>",
+            text = f"<b><blockquote expandable>○ Oᴡɴᴇʀ : <a href='tg://user?id={OWNER_ID}'>Nᴀᴍᴇ Hᴜʜ</a>\n○ Mᴀɪɴ Cʜᴀɴɴᴇʟ : <a href='https://t.me/Anime_StarDust'>Aɴɪᴍᴇ Sᴛᴀʀᴅᴜsᴛ</a>\n○ Mᴏᴠɪᴇs Uᴘᴅᴀᴛᴇs : <a href='https://t.me/Movies_Stardust'>Mᴏᴠɪᴇs Sᴛᴀʀᴅᴜsᴛ</a>\n○ Oᴜʀ Cᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/Sanctuary_Stardust'>Sᴀɴᴄᴛᴜᴀʀʏ</a>\n○ Aɴɪᴍᴇ Cʜᴀᴛ : <a href='https://t.me/+p8yoPpyKCoQxMzE1'>Cʜᴀᴛ Sᴛᴀʀᴅᴜsᴛ</a></blockquote></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
