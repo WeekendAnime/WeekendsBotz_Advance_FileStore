@@ -40,8 +40,8 @@ FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "-1002032563467"
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_PIC = os.environ.get("START_PIC","https://envs.sh/KN2.jpg")
-START_MSG = os.environ.get("START_MESSAGE", "ᴋᴏɴɪᴄʜɪᴡᴀ {mention}\n\n<blockquote>ᴋᴏɴɪᴄʜɪᴡᴀ ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴀɴɪᴍᴇ / ᴍᴏᴠɪᴇ ғɪʟᴇs ɪɴ @Anime_StarDust ᴄʜᴀɴɴᴇʟ  ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote>")
+START_PIC = os.environ.get("START_PIC","https://envs.sh/igi.jpg")
+START_MSG = os.environ.get("START_MESSAGE", "Kᴏɴɪᴄʜɪᴡᴀ {mention} 💕\n\n<blockquote>ᴋᴏɴɪᴄʜɪᴡᴀ ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴀɴɪᴍᴇ / ᴍᴏᴠɪᴇ ғɪʟᴇs ɪɴ @Anime_StarDust ᴄʜᴀɴɴᴇʟ  ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.</blockquote>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS","5548954124 5826613686 6465096751 7378365553 1309776707 7186887048").split()):
